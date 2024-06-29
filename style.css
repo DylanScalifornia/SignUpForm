@@ -10,6 +10,7 @@
   body{
     margin: 0;
     padding: 0;
+    background: white;
   }
   
   .main {
@@ -31,16 +32,50 @@
   .right{
     display: flex;
     flex-direction: column;
+    background-color: #F0FFFF;
+    width: 65vw;
   }
 
-  .first{
+  .firstp{
     height: 33vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
   }
 
-  .second{
-    height: 33vh;
+  .secondp{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
   }
 
-  .third {
-    height: 33vh;
-  }
+.form{
+    background-color: white;
+    padding-bottom: 2rem;
+}
+
+.form-heading{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+}
+
+.form-left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+label{
+    display: block;
+    margin-top: 1rem;
+}
