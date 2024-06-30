@@ -2,10 +2,36 @@
     font-family: Norse-Bold;
     src: url(../fonts/Norse-Bold.otf);
   }
-  
+    .left{
+    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Norse-Bold, sans-serif;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+   .logo{
+    height: 90px;
+    margin-left: 15%;
+  }
+
   h1 {
     font-family: Norse-Bold, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 400px;
+    width: 100%
   }
+
+ 
+
+
 
   body{
     margin: 0;
@@ -21,19 +47,12 @@
     height: 100vh;
   }
 
-  .left{
-    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
-    width: 35vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    font-family: Norse-Bold, sans-serif;
-  }
+
 
   .right{
     display: flex;
     flex-direction: column;
-    background-color: #F0FFFF;
+    background-color: rgb(231, 227, 227);
     width: 65vw;
   }
 
@@ -87,5 +106,26 @@ label{
     display: block;
 }
 
+/* bottom section */
+.bottom-section{
+    margin-left: 3%;
+}
 
+.create-account{
+    background-color: rgb(4, 94, 4);
+    color: white;
+    font-weight: bold;
+    padding: 2% 6% 2% 6%;
+    border-radius: 6px;
+    margin-top: 5%;
+}
 
+.login{
+    font-family:  Norse-Bold, sans-serif;
+}
+
+a {
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
